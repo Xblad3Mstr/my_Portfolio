@@ -1,0 +1,452 @@
+<html>
+	<style>
+		.hll{background-color:#ffc}.c{color:#999}.err{color:#a00;background-color:#faa}.k{color:#069}.cm{color:#999}.cp{color:#099}.c1{color:#999}.cs{color:#999}
+		
+		.gd{background-color:#fcc;border:1px solid #c00}.ge{font-style:italic}.gr{color:red}.gh{color:#030}.gi{background-color:#cfc;border:1px solid #0c0}.go{color:#aaa}.gp{color:#009}.gu{color:#030}.gt{color:#9c6}.kc{color:#069}.kd{color:#069}.kn{color:#069}.kp{color:#069}.kr{color:#069}.kt{color:#078}.m{color:#f60}.s{color:#d44950}.na{color:#4f9fcf}.nb{color:#366}.nc{color:#0a8}.no{color:#360}.nd{color:#99f}.ni{color:#999}.ne{color:#c00}.nf{color:#c0f}.nl{color:#99f}.nn{color:#0cf}.nt{color:#2f6f9f}.nv{color:#033}.ow{color:#000}.w{color:#bbb}.mf{color:#f60}.mh{color:#f60}.mi{color:#f60}.mo{color:#f60}.sb{color:#c30}.sc{color:#c30}.sd{color:#c30;font-style:italic}.s2{color:#c30}.se{color:#c30}.sh{color:#c30}.si{color:#a00}.sx{color:#c30}.sr{color:#3aa}.s1{color:#c30}.ss{color:#fc3}.bp{color:#366}.vc{color:#033}.vg{color:#033}.vi{color:#033}.il{color:#f60}.css .o,.css .o+.nt,.css .nt+.nt{color:#999}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html,body{margin:0;padding:0}html{font-family:"Segoe UI", "Helvetica Neue", "Noto Sans", sans-serif;font-size:16px;line-height:1.5}@media (min-width: 40em){html{font-size:18px}}body{color:#515151;background-color:#fff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}a{color:#167bc2;text-decoration:none}a strong{color:inherit}a:hover,a:focus{text-decoration:underline}h1,h2,h3,h4,h5,h6{margin-bottom:.5rem;font-weight:700;line-height:1.25;color:#313131;text-rendering:optimizeLegibility}h1{font-size:2rem}h2{margin-top:1.5rem;font-size:1.5rem}h3{margin-top:1.5rem;font-size:1.25rem}h4,h5,h6{margin-top:1rem;font-size:1rem}p{margin-top:0;margin-bottom:1rem}strong{color:#303030}ul,ol,dl{margin-top:0;margin-bottom:1rem}dt{font-weight:700}dd{margin-bottom:.5rem}hr{position:relative;margin:1.5rem 0;border:0;border-top:1px solid #eee;border-bottom:1px solid #fff}code,pre{font-family: "Liberation Mono", "Courier New", monospace}code{font-size:90%;color:#b85861}pre{display:block;margin-top:0;margin-bottom:1rem;padding:1rem;font-size:.8rem;line-height:1.4;white-space:pre;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;background-color:#f9f9f9}pre code{padding:0;font-size:100%;color:inherit;background-color:transparent}.highlight{margin:0 0 1rem;border-radius:.25rem}.highlight pre{margin-bottom:0}blockquote{padding:.5rem 1rem;margin:.8rem 0;color:#7a7a7a;border-left:.25rem solid #e5e5e5}blockquote p:last-child{margin-bottom:0}@media (min-width: 30em){blockquote{padding-right:5rem;padding-left:1.25rem}}img{display:block;max-width:100%;margin:0 0 1rem;border-radius:5px}table{margin-bottom:1rem;width:100%;border:1px solid #e5e5e5;border-collapse:collapse}td,th{padding:.25rem .5rem;border:1px solid #e5e5e5}tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th{background-color:#f9f9f9}.container{max-width:40rem;padding-left:1.25rem;padding-right:1.25rem;margin-left:auto;margin-right:auto}.page,.post{margin-bottom:4em}.page-title,.post-title,.post-title a{color:#303030}.page-title,.post-title{margin-top:0}.post-date{display:block;margin-top:-.5rem;margin-bottom:1rem;color:#767676}.post a{word-break:break-word}.related{padding-top:2rem;padding-bottom:2rem;border-top:1px solid #eee}.related-posts{padding-left:0;list-style:none}.related-posts h3{margin-top:0}.related-posts li small{font-size:75%;color:#767676}.related-posts li a:hover{color:#268bd2;text-decoration:none}.related-posts li a:hover small{color:inherit}.post>.embed-responsive+p{margin-top:2rem;font-size:125%;font-weight:300;color:#222}.pagination{overflow:hidden;margin-left:-1rem;margin-right:-1rem;color:#767676;text-align:center}.pagination-item{position:relative;display:block;padding:1rem;border:1px solid #eee}.pagination-item:first-child{margin-bottom:-1px}a.pagination-item:hover{z-index:2;color:#fff;text-decoration:none;background-color:#268bd2;border-color:#268bd2}@media (min-width: 30em){.pagination{margin:3rem 0}.pagination-item{float:left;width:50%}.pagination-item:first-child{margin-bottom:0;border-top-left-radius:4px;border-bottom-left-radius:4px}.pagination-item:last-child{margin-left:-1px;border-top-right-radius:4px;border-bottom-right-radius:4px}}.embed-responsive{position:relative;display:block;height:0;padding:0;overflow:hidden}.no-js .embed-responsive{display:none}.embed-responsive .embed-responsive-item,.embed-responsive iframe,.embed-responsive embed,.embed-responsive object,.embed-responsive video{position:absolute;top:0;bottom:0;left:0;width:100%;height:100%;border:0}.embed-responsive.embed-responsive-16by9{padding-bottom:56.25%}iframe[data-url^="https://jsbin.com"]{border-color:rgba(0,0,0,0.1) !important}@media (min-width: 1200px){.jsbin-wide{margin-left:-226px;margin-right:-226px}}iframe{border:0}h1,h2,h3,h4,h5,h6{font-weight:400}h2,h3,h4{font-weight:500}.embed-responsive{background-color:#000;margin-bottom:1rem}.page-videos .embed-responsive{margin-top:.5rem}.post li{margin-bottom:.25rem}.bs-docs-booticon{display:inline-block}.bs-docs-booticon svg{margin-bottom:1rem}.bs-docs-booticon:hover,.bs-docs-booticon:focus{text-decoration:none}.masthead{position:relative;padding:2rem 1.25rem;margin-bottom:1.25rem;font-weight:300;color:#cdbfe3;text-align:center;text-shadow:0 1px 0 rgba(0,0,0,0.1);background-image:linear-gradient(#563d7c, #6f5499)}@media (min-width: 40em){.masthead{padding:3rem 0 4rem;margin-bottom:3rem}}.masthead a,.masthead h1{font-weight:400;color:#fff}.masthead h1{margin-top:0;margin-bottom:.25rem;font-size:1.5rem}.masthead p{max-width:26rem;margin:0 auto}
+		
+		.colophon:before{display:block;content:'';width:100px;height:1px;margin:4rem auto;background-color:#eee}.colophon ul,.colophon p{text-align:center;font-size:.75rem;color:#767676}.colophon ul{margin-left:0;padding-left:0}
+		
+		.colophon ul li{display:inline;padding:0 .75rem}.colophon ul a{white-space:nowrap}
+		
+		.btn-link{display:inline-block;padding:.6rem 1.2rem;margin-right:.25rem;color:#fff;font-weight:700;background-color:#08c;border-radius:.2rem;transition:all .2s linear}
+		
+		.btn-link:hover{color:#fff;text-decoration:none;background-color:#005580}.btn-link-ratchet{background-color:#b60c32}
+		
+		.btn-link-ratchet:hover{background-color:#0f1953}.list{padding-left:0;list-style:none}.list li{display:block;margin-bottom:5px}.list span{float:right;color:#767676}
+		
+		.carbonad{width:auto !important;height:auto !important;min-height:130px;padding:15px;margin-bottom:30px;background:#f5f5f5 !important;border:0 !important;border-radius:4px}
+		
+		.carbonad-img{margin:0 !important}.carbonad-text{float:none !important;display:block !important;width:auto !important;height:auto !important;max-width:240px;margin-top:0 !important;margin-left:150px !important;margin-right:10px !important;padding-top:0 !important;font-family:inherit !important;font-size:14px !important;line-height:1.3}
+		.carbonad-tag{color:#707070 !important;float:none !important;display:block !important;width:auto !important;padding-top:0 !important;margin-left:150px !important;margin-bottom:0;text-align:left !important;font-family:inherit !important}
+		
+		.carbonad-tag a{color:inherit !important}#azcarbon img:last-child{margin-bottom:0}@media (min-width: 1080px){.carbonad{position:fixed;right:20px;bottom:20px;width:160px !important;margin:0}.carbonad-img{float:none !important;margin:0 0 10px !important}.carbonad-text{margin-left:0 !important;margin-right:0 !important;font-size:12px !important}.carbonad-tag{margin-left:0 !important}}
+		
+		.font-look{
+			color: black;
+			text-align: center;
+		}
+		.background{
+			background-color: black;
+		}
+		.changeimg{
+			transform: rotate(90deg);
+		}
+		.center{
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+			width:50%;
+		}
+		.surround{
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 40px;
+			padding-right: 40px;
+			background-color: black;
+		}
+	</style>
+<head>
+<meta charset="utf-8">
+<title>Non-Digital Work</title>
+</head>
+
+<body>
+	<head>
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <!-- <a class="navbar-brand" href="#">Carousel</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nonDigital.html">Non-Digital Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Digital.html">Digital Work</a>
+        </li>
+	 <li class="nav-item">
+          <a class="nav-link" href="Videos.html">Videos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+	<div>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="MIkenna Fuit">
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="images/mikenna-favicon.jpg" sizes="32x32" type="image/jpg">
+<link rel="icon" href="images/mikenna-favicon.jpg" sizes="16x16" type="image/jpg">
+<link rel="manifest" href="/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/favicon.ico">
+<meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <!--<link type="application/atom+xml" rel="alternate" href="#" title="Bootstrap Blog" />-->
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>A Nerd's Portfolio</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Digital Work" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A website being used to show my digital work." />
+<meta property="og:description" content="For my digital work." />
+<link rel="canonical" href="Digital.html" />
+<meta property="og:url" content="Digital.html"/>
+<meta property="og:site_name" content="Digital Work" />
+<meta property="og:image" content="images/AlienHead.JPG" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:width" content="1200" />
+<link rel="next" href="https://blog.getbootstrap.com/page2" />
+		
+<!--<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@getbootstrap" />
+<meta name="twitter:creator" content="@getbootstrap" />-->
+<script type="application/ld+json">
+{"@type":"WebSite","image":{"width":1200,"height":630,"url":"https://blog.getbootstrap.com/assets/img/bootstrap-social.png","@type":"imageObject"},"url":"https://blog.getbootstrap.com/","name":"Bootstrap Blog","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://blog.getbootstrap.com/assets/img/bootstrap-social.png"}},"headline":"Bootstrap Blog","description":"This is a page used to show my work on digital programs.","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-146052-12', 'getbootstrap.com');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+    <script>
+  (function(html) {
+    html.className = html.className.replace(/\bno-js\b/, '');
+  })(document.documentElement);
+</script>
+<link rel="shortcut icon" type="image/jpg" href="images/mikenna-favicon.jpg">
+  </head>
+
+  <body class="default page-home">
+
+    <div class="masthead">
+      <div class="container">
+          <title>Non-Digital Work</title>
+<img class="center" src="images/IMG_9574.JPG">
+</svg>
+
+          <h1>The Non-Digital Work</h1>
+        </a>
+        <p>
+          These are projects I've made some not-so-digital methods like painting or sculpting.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div id="carbonads-container">
+        <div class="carbonad">
+          <div id="azcarbon"></div>
+        </div>
+      </div>
+
+
+<div class="posts">
+  <div class="post">
+      
+     <!-- <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item lazy" data-src="https://www.youtube-nocookie.com/embed/htgr3pvBr-I?rel=0" title="YouTube Video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="760" height="570" allowfullscreen></iframe>
+</div> -->
+
+
+<h2 class="font-look">Drawing/Painting</h2>
+	  <p><img class="center" src="images/IMG_9571.JPG"</p>
+		<p class="font-look">An image made at a family gathering. This was created using acrylic paints on canvas.</p>
+	  <p class="font-look"><img class="center" src="images/IMG_9573.JPG"</p>
+		  <p class="font-look">An image made for a school project. This was created using acrylic paints on canvas.</p>
+	  <p><img class="center" src="images/IMG_9574.JPG"</p>
+		<p class="font-look">This image was a drawing I made of a mermaid on my free time. It was made using graphite on sketchbook paper.</p>
+	  <p><img class="center" src="images/Seattle.jpg"</p>
+		  <p class="font-look">An image made for a school project. This was created using Sharpies and Copic markers on cardstock.</p>
+	  <p><img class="center" src="images/DisneyConcertHall.jpg"</p>
+		  <p class="font-look">An image made for a school project. The image is supposed to be the Walt Disney Concert Hall with an alternative color scheme. This was made using Sharpies and Copic markers.</p>
+<h2 class="font-look">Pottery</h2>
+<p><img class="center" src="images/brittBowl.png"</p>
+	<p class="font-look">A piece made for a school project and my sister-in-law. Made using B-mix clay with glaze.</p>
+	 <p><img class="center" src="images/JPTeapot.png"</p>
+		 <p class="font-look">A teapot made for a school project. The teapot was meant to be more like a Japanese teapot. It was made on a potter wheel using B-mix clay.</p>
+	  <p><img class="center" src="images/MixedBowl.png"</p>
+		  <p class="font-look">A piece made on the potter wheel. Used with B-mix and red clay with grog. A clear glaze was used over it.</p>
+	 
+    </div>
+
+     <!-- <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item lazy" data-src="https://www.youtube-nocookie.com/embed/4N1iwQxiHrs?rel=0" title="YouTube Video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="760" height="570" allowfullscreen></iframe>-->
+		</div>
+
+    <script>
+  (function(w, d) {
+      var b = d.getElementsByTagName('body')[0];
+      var s = d.createElement('script');
+      var v = !('IntersectionObserver' in w) ? '8.x' : '11.x';
+      s.async = true;
+      s.src = '/assets/js/vendor/lazyload.' + v + '.iife.min.js';
+      w.lazyLoadOptions = {
+        elements_selector: '.lazy',
+        threshold: 150
+      };
+      b.appendChild(s);
+  }(window, document));
+</script>
+
+    <script>
+  var z = document.createElement('script');
+  z.type = 'text/javascript';
+  z.async = true;
+  z.src = 'https://engine.carbonads.com/z/32340/azcarbon_2_1_0_VERT';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(z, s);
+</script>
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<html>
+	<style>
+		.hll{background-color:#ffc}.c{color:#999}.err{color:#a00;background-color:#faa}.k{color:#069}.cm{color:#999}.cp{color:#099}.c1{color:#999}.cs{color:#999}
+		
+		.gd{background-color:#fcc;border:1px solid #c00}.ge{font-style:italic}.gr{color:red}.gh{color:#030}.gi{background-color:#cfc;border:1px solid #0c0}.go{color:#aaa}.gp{color:#009}.gu{color:#030}.gt{color:#9c6}.kc{color:#069}.kd{color:#069}.kn{color:#069}.kp{color:#069}.kr{color:#069}.kt{color:#078}.m{color:#f60}.s{color:#d44950}.na{color:#4f9fcf}.nb{color:#366}.nc{color:#0a8}.no{color:#360}.nd{color:#99f}.ni{color:#999}.ne{color:#c00}.nf{color:#c0f}.nl{color:#99f}.nn{color:#0cf}.nt{color:#2f6f9f}.nv{color:#033}.ow{color:#000}.w{color:#bbb}.mf{color:#f60}.mh{color:#f60}.mi{color:#f60}.mo{color:#f60}.sb{color:#c30}.sc{color:#c30}.sd{color:#c30;font-style:italic}.s2{color:#c30}.se{color:#c30}.sh{color:#c30}.si{color:#a00}.sx{color:#c30}.sr{color:#3aa}.s1{color:#c30}.ss{color:#fc3}.bp{color:#366}.vc{color:#033}.vg{color:#033}.vi{color:#033}.il{color:#f60}.css .o,.css .o+.nt,.css .nt+.nt{color:#999}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html,body{margin:0;padding:0}html{font-family:"Segoe UI", "Helvetica Neue", "Noto Sans", sans-serif;font-size:16px;line-height:1.5}@media (min-width: 40em){html{font-size:18px}}body{color:#515151;background-color:#fff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}a{color:#167bc2;text-decoration:none}a strong{color:inherit}a:hover,a:focus{text-decoration:underline}h1,h2,h3,h4,h5,h6{margin-bottom:.5rem;font-weight:700;line-height:1.25;color:#313131;text-rendering:optimizeLegibility}h1{font-size:2rem}h2{margin-top:1.5rem;font-size:1.5rem}h3{margin-top:1.5rem;font-size:1.25rem}h4,h5,h6{margin-top:1rem;font-size:1rem}p{margin-top:0;margin-bottom:1rem}strong{color:#303030}ul,ol,dl{margin-top:0;margin-bottom:1rem}dt{font-weight:700}dd{margin-bottom:.5rem}hr{position:relative;margin:1.5rem 0;border:0;border-top:1px solid #eee;border-bottom:1px solid #fff}code,pre{font-family: "Liberation Mono", "Courier New", monospace}code{font-size:90%;color:#b85861}pre{display:block;margin-top:0;margin-bottom:1rem;padding:1rem;font-size:.8rem;line-height:1.4;white-space:pre;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;background-color:#f9f9f9}pre code{padding:0;font-size:100%;color:inherit;background-color:transparent}.highlight{margin:0 0 1rem;border-radius:.25rem}.highlight pre{margin-bottom:0}blockquote{padding:.5rem 1rem;margin:.8rem 0;color:#7a7a7a;border-left:.25rem solid #e5e5e5}blockquote p:last-child{margin-bottom:0}@media (min-width: 30em){blockquote{padding-right:5rem;padding-left:1.25rem}}img{display:block;max-width:100%;margin:0 0 1rem;border-radius:5px}table{margin-bottom:1rem;width:100%;border:1px solid #e5e5e5;border-collapse:collapse}td,th{padding:.25rem .5rem;border:1px solid #e5e5e5}tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th{background-color:#f9f9f9}.container{max-width:40rem;padding-left:1.25rem;padding-right:1.25rem;margin-left:auto;margin-right:auto}.page,.post{margin-bottom:4em}.page-title,.post-title,.post-title a{color:#303030}.page-title,.post-title{margin-top:0}.post-date{display:block;margin-top:-.5rem;margin-bottom:1rem;color:#767676}.post a{word-break:break-word}.related{padding-top:2rem;padding-bottom:2rem;border-top:1px solid #eee}.related-posts{padding-left:0;list-style:none}.related-posts h3{margin-top:0}.related-posts li small{font-size:75%;color:#767676}.related-posts li a:hover{color:#268bd2;text-decoration:none}.related-posts li a:hover small{color:inherit}.post>.embed-responsive+p{margin-top:2rem;font-size:125%;font-weight:300;color:#222}.pagination{overflow:hidden;margin-left:-1rem;margin-right:-1rem;color:#767676;text-align:center}.pagination-item{position:relative;display:block;padding:1rem;border:1px solid #eee}.pagination-item:first-child{margin-bottom:-1px}a.pagination-item:hover{z-index:2;color:#fff;text-decoration:none;background-color:#268bd2;border-color:#268bd2}@media (min-width: 30em){.pagination{margin:3rem 0}.pagination-item{float:left;width:50%}.pagination-item:first-child{margin-bottom:0;border-top-left-radius:4px;border-bottom-left-radius:4px}.pagination-item:last-child{margin-left:-1px;border-top-right-radius:4px;border-bottom-right-radius:4px}}.embed-responsive{position:relative;display:block;height:0;padding:0;overflow:hidden}.no-js .embed-responsive{display:none}.embed-responsive .embed-responsive-item,.embed-responsive iframe,.embed-responsive embed,.embed-responsive object,.embed-responsive video{position:absolute;top:0;bottom:0;left:0;width:100%;height:100%;border:0}.embed-responsive.embed-responsive-16by9{padding-bottom:56.25%}iframe[data-url^="https://jsbin.com"]{border-color:rgba(0,0,0,0.1) !important}@media (min-width: 1200px){.jsbin-wide{margin-left:-226px;margin-right:-226px}}iframe{border:0}h1,h2,h3,h4,h5,h6{font-weight:400}h2,h3,h4{font-weight:500}.embed-responsive{background-color:#000;margin-bottom:1rem}.page-videos .embed-responsive{margin-top:.5rem}.post li{margin-bottom:.25rem}.bs-docs-booticon{display:inline-block}.bs-docs-booticon svg{margin-bottom:1rem}.bs-docs-booticon:hover,.bs-docs-booticon:focus{text-decoration:none}.masthead{position:relative;padding:2rem 1.25rem;margin-bottom:1.25rem;font-weight:300;color:#cdbfe3;text-align:center;text-shadow:0 1px 0 rgba(0,0,0,0.1);background-image:linear-gradient(#563d7c, #6f5499)}@media (min-width: 40em){.masthead{padding:3rem 0 4rem;margin-bottom:3rem}}.masthead a,.masthead h1{font-weight:400;color:#fff}.masthead h1{margin-top:0;margin-bottom:.25rem;font-size:1.5rem}.masthead p{max-width:26rem;margin:0 auto}
+		
+		.colophon:before{display:block;content:'';width:100px;height:1px;margin:4rem auto;background-color:#eee}.colophon ul,.colophon p{text-align:center;font-size:.75rem;color:#767676}.colophon ul{margin-left:0;padding-left:0}
+		
+		.colophon ul li{display:inline;padding:0 .75rem}.colophon ul a{white-space:nowrap}
+		
+		.btn-link{display:inline-block;padding:.6rem 1.2rem;margin-right:.25rem;color:#fff;font-weight:700;background-color:#08c;border-radius:.2rem;transition:all .2s linear}
+		
+		.btn-link:hover{color:#fff;text-decoration:none;background-color:#005580}.btn-link-ratchet{background-color:#b60c32}
+		
+		.btn-link-ratchet:hover{background-color:#0f1953}.list{padding-left:0;list-style:none}.list li{display:block;margin-bottom:5px}.list span{float:right;color:#767676}
+		
+		.carbonad{width:auto !important;height:auto !important;min-height:130px;padding:15px;margin-bottom:30px;background:#f5f5f5 !important;border:0 !important;border-radius:4px}
+		
+		.carbonad-img{margin:0 !important}.carbonad-text{float:none !important;display:block !important;width:auto !important;height:auto !important;max-width:240px;margin-top:0 !important;margin-left:150px !important;margin-right:10px !important;padding-top:0 !important;font-family:inherit !important;font-size:14px !important;line-height:1.3}
+		.carbonad-tag{color:#707070 !important;float:none !important;display:block !important;width:auto !important;padding-top:0 !important;margin-left:150px !important;margin-bottom:0;text-align:left !important;font-family:inherit !important}
+		
+		.carbonad-tag a{color:inherit !important}#azcarbon img:last-child{margin-bottom:0}@media (min-width: 1080px){.carbonad{position:fixed;right:20px;bottom:20px;width:160px !important;margin:0}.carbonad-img{float:none !important;margin:0 0 10px !important}.carbonad-text{margin-left:0 !important;margin-right:0 !important;font-size:12px !important}.carbonad-tag{margin-left:0 !important}}
+		
+		.font-look{
+			color: black;
+			text-align: center;
+		}
+		.background{
+			background-color: black;
+		}
+		.changeimg{
+			transform: rotate(90deg);
+		}
+		.center{
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+			width:50%;
+		}
+		.surround{
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 40px;
+			padding-right: 40px;
+			background-color: black;
+		}
+	</style>
+<head>
+<meta charset="utf-8">
+<title>Non-Digital Work</title>
+</head>
+
+<body>
+	<head>
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <!-- <a class="navbar-brand" href="#">Carousel</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nonDigital.html">Non-Digital Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Digital.html">Digital Work</a>
+        </li>
+	 <li class="nav-item">
+          <a class="nav-link" href="Videos.html">Videos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+	<div>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="MIkenna Fuit">
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="images/mikenna-favicon.jpg" sizes="32x32" type="image/jpg">
+<link rel="icon" href="images/mikenna-favicon.jpg" sizes="16x16" type="image/jpg">
+<link rel="manifest" href="/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/favicon.ico">
+<meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <!--<link type="application/atom+xml" rel="alternate" href="#" title="Bootstrap Blog" />-->
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>A Nerd's Portfolio</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Digital Work" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A website being used to show my digital work." />
+<meta property="og:description" content="For my digital work." />
+<link rel="canonical" href="Digital.html" />
+<meta property="og:url" content="Digital.html"/>
+<meta property="og:site_name" content="Digital Work" />
+<meta property="og:image" content="images/AlienHead.JPG" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:width" content="1200" />
+<link rel="next" href="https://blog.getbootstrap.com/page2" />
+		
+<!--<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@getbootstrap" />
+<meta name="twitter:creator" content="@getbootstrap" />-->
+<script type="application/ld+json">
+{"@type":"WebSite","image":{"width":1200,"height":630,"url":"https://blog.getbootstrap.com/assets/img/bootstrap-social.png","@type":"imageObject"},"url":"https://blog.getbootstrap.com/","name":"Bootstrap Blog","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://blog.getbootstrap.com/assets/img/bootstrap-social.png"}},"headline":"Bootstrap Blog","description":"This is a page used to show my work on digital programs.","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-146052-12', 'getbootstrap.com');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+    <script>
+  (function(html) {
+    html.className = html.className.replace(/\bno-js\b/, '');
+  })(document.documentElement);
+</script>
+<link rel="shortcut icon" type="image/jpg" href="images/mikenna-favicon.jpg">
+  </head>
+
+  <body class="default page-home">
+
+    <div class="masthead">
+      <div class="container">
+          <title>Non-Digital Work</title>
+<img class="center" src="images/IMG_9574.JPG">
+</svg>
+
+          <h1>The Non-Digital Work</h1>
+        </a>
+        <p>
+          These are projects I've made some not-so-digital methods like painting or sculpting.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div id="carbonads-container">
+        <div class="carbonad">
+          <div id="azcarbon"></div>
+        </div>
+      </div>
+
+
+<div class="posts">
+  <div class="post">
+      
+     <!-- <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item lazy" data-src="https://www.youtube-nocookie.com/embed/htgr3pvBr-I?rel=0" title="YouTube Video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="760" height="570" allowfullscreen></iframe>
+</div> -->
+
+
+<h2 class="font-look">Drawing/Painting</h2>
+	  <p><img class="center" src="images/IMG_9571.JPG"</p>
+		<p class="font-look">An image made at a family gathering. This was created using acrylic paints on canvas.</p>
+	  <p class="font-look"><img class="center" src="images/IMG_9573.JPG"</p>
+		  <p class="font-look">An image made for a school project. This was created using acrylic paints on canvas.</p>
+	  <p><img class="center" src="images/IMG_9574.JPG"</p>
+		<p class="font-look">This image was a drawing I made of a mermaid on my free time. It was made using graphite on sketchbook paper.</p>
+	  <p><img class="center" src="images/Seattle.jpg"</p>
+		  <p class="font-look">An image made for a school project. This was created using Sharpies and Copic markers on cardstock.</p>
+	  <p><img class="center" src="images/DisneyConcertHall.jpg"</p>
+		  <p class="font-look">An image made for a school project. The image is supposed to be the Walt Disney Concert Hall with an alternative color scheme. This was made using Sharpies and Copic markers.</p>
+<h2 class="font-look">Pottery</h2>
+<p><img class="center" src="images/brittBowl.png"</p>
+	<p class="font-look">A piece made for a school project and my sister-in-law. Made using B-mix clay with glaze.</p>
+	 <p><img class="center" src="images/JPTeapot.png"</p>
+		 <p class="font-look">A teapot made for a school project. The teapot was meant to be more like a Japanese teapot. It was made on a potter wheel using B-mix clay.</p>
+	  <p><img class="center" src="images/MixedBowl.png"</p>
+		  <p class="font-look">A piece made on the potter wheel. Used with B-mix and red clay with grog. A clear glaze was used over it.</p>
+	 
+    </div>
+
+     <!-- <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item lazy" data-src="https://www.youtube-nocookie.com/embed/4N1iwQxiHrs?rel=0" title="YouTube Video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="760" height="570" allowfullscreen></iframe>-->
+		</div>
+
+    <script>
+  (function(w, d) {
+      var b = d.getElementsByTagName('body')[0];
+      var s = d.createElement('script');
+      var v = !('IntersectionObserver' in w) ? '8.x' : '11.x';
+      s.async = true;
+      s.src = '/assets/js/vendor/lazyload.' + v + '.iife.min.js';
+      w.lazyLoadOptions = {
+        elements_selector: '.lazy',
+        threshold: 150
+      };
+      b.appendChild(s);
+  }(window, document));
+</script>
+
+    <script>
+  var z = document.createElement('script');
+  z.type = 'text/javascript';
+  z.async = true;
+  z.src = 'https://engine.carbonads.com/z/32340/azcarbon_2_1_0_VERT';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(z, s);
+</script>
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
